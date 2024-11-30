@@ -1,23 +1,24 @@
 ![Repository Icon](assets/logo.ico)
 
-              ![#ff0000](^)
-                            ![#00ff00](>)
-             ![#00ff00](<<)![#ff0000](@)             
-            ![#00ff00](<)![#ff0000](&)            ![#00ff00](<<<)
-           ![#00ff00](<)![#ff0000](@)           ![#00ff00](>><><)
-          ![#00ff00](<><>>><)![#ff0000](&)          ![#00ff00](<)
-         ![#00ff00](<>>><>)![#ff0000](*)![#ff0000]($)         ![#00ff00](<<>)
-        ![#00ff00](>)![#ff0000](&)![#00ff00](>>><)![#ff0000](@)![#ff0000](@)![#00ff00](><)![#ff0000](&)![#ff0000](@)        ![#00ff00](>)
-       ![#ff0000]($)![#00ff00](><)![#ff0000](*)![#00ff00](<<><)![#ff0000](*)![#ff0000](@)       ![#00ff00](>><><)
-      ![#00ff00](<>)![#ff0000]($)![#00ff00](<<>><><)![#ff0000](@)![#00ff00](<)![#ff0000](*)      ![#00ff00](<<<>)
-     ![#00ff00](<><)![#ff0000](&)![#00ff00](><)![#ff0000](&)![#00ff00](>)![#ff0000](&)![#00ff00](<<>><)![#ff0000](*)     ![#00ff00](<><<)
-    ![#00ff00](>><<<)![#ff0000]($)![#00ff00](<<><<<)![#ff0000](&)![#00ff00](>)![#ff0000]($)    ![#00ff00](<<<>><)
-   ![#00ff00](<<>>><)![#ff0000](*)![#00ff00](><)![#ff0000](&)![#00ff00](>)![#ff0000](@)![#ff0000]($)![#00ff00](>><<)![#ff0000](*)![#00ff00](>)![#ff0000](@)   ![#00ff00](<>>)
-  ![#ff0000](@)![#00ff00](><>)![#ff0000]($)![#00ff00](<)![#ff0000](@)![#00ff00](<><>>)![#ff0000](@)![#ff0000](@)![#00ff00](<>>)![#ff0000](*)![#00ff00](<>>>)![#ff0000](@)  ![#00ff00](><)
- ![#ff0000](@)![#00ff00](<>)![#ff0000](@)![#00ff00](<<>>><<<><><><>>>><)![#ff0000](*)![#ff0000](&)![#ff0000](&) ![#00ff00](>)
-![#00ff00](>)![#ff0000](@)![#00ff00](><<<<)![#ff0000]($)![#00ff00](><>>>><<>><>>>><><><>)
-             ![#ff0000](|)![#ff0000](|)![#ff0000](|)
-             ![#ff0000](|)![#ff0000](|)![#ff0000](|)
+              $${color{red}^}$$
+                            $${color{green}>}$$
+             $${color{green}<<}$$$${color{red}@}$$             
+            $${color{green}<}$$$${color{red}&}$$            $${color{green}<<<}$$
+           $${color{green}<}$$$${color{red}@}$$           $${color{green}>><><}$$
+          $${color{green}<><>>><}$$$${color{red}&}$$          $${color{green}<}$$
+         $${color{green}<>>><>}$$$${color{red}*}$$$${color{red}$}$$         $${color{green}<<>}$$
+        $${color{green}>}$$$${color{red}&}$$$${color{green}>>><}$$$${color{red}@}$$$${color{red}@}$$$${color{green}><}$$$${color{red}&}$$$${color{red}@}$$        $${color{green}>}$$
+       $${color{red}$}$$$${color{green}><}$$$${color{red}*}$$$${color{green}<<><}$$$${color{red}*}$$$${color{red}@}$$       $${color{green}>><><}$$
+      $${color{green}<>}$$$${color{red}$}$$$${color{green}<<>><><}$$$${color{red}@}$$$${color{green}<}$$$${color{red}*}$$      $${color{green}<<<>}$$
+     $${color{green}<><}$$$${color{red}&}$$$${color{green}><}$$$${color{red}&}$$$${color{green}>}$$$${color{red}&}$$$${color{green}<<>><}$$$${color{red}*}$$     $${color{green}<><<}$$
+    $${color{green}>><<<}$$$${color{red}$}$$$${color{green}<<><<<}$$$${color{red}&}$$$${color{green}>}$$$${color{red}$}$$    $${color{green}<<<>><}$$
+   $${color{green}<<>>><}$$$${color{red}*}$$$${color{green}><}$$$${color{red}&}$$$${color{green}>}$$$${color{red}@}$$$${color{red}$}$$$${color{green}>><<}$$$${color{red}*}$$$${color{green}>}$$$${color{red}@}$$   $${color{green}<>>}$$
+  $${color{red}@}$$$${color{green}><>}$$$${color{red}$}$$$${color{green}<}$$$${color{red}@}$$$${color{green}<><>>}$$$${color{red}@}$$$${color{red}@}$$$${color{green}<>>}$$$${color{red}*}$$$${color{green}<>>>}$$$${color{red}@}$$  $${color{green}><}$$
+ $${color{red}@}$$$${color{green}<>}$$$${color{red}@}$$$${color{green}<<>>><<<><><><>>>><}$$$${color{red}*}$$$${color{red}&}$$$${color{red}&}$$ $${color{green}>}$$
+$${color{green}>}$$$${color{red}@}$$$${color{green}><<<<}$$$${color{red}$}$$$${color{green}><>>>><<>><>>>><><><>}$$
+             $${color{red}|}$$$${color{red}|}$$$${color{red}|}$$
+             $${color{red}|}$$$${color{red}|}$$$${color{red}|}$$
+             
 
 # Advent of Code 2024 Solutions
 
