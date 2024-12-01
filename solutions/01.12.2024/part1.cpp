@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
-ifstream fin(".in");
+ifstream fin("input.txt");
+ofstream fout("output.txt");
 
 int main() {
 	vector<int> a, b;
@@ -18,5 +19,5 @@ int main() {
 	for (int i = 0; i < a.size(); ++i) {
 		answer += abs(a[i] - b[i]);
 	}
-	cout << answer;
+	fout << answer;
 }
