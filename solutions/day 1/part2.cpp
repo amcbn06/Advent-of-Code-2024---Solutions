@@ -10,7 +10,7 @@ int main() {
 		fa[x]++;
 		fb[y]++;
 	}
-	// We'll use the contribution to solve this problem:
+	// We'll use the contribution technique to solve this problem:
 	// If `a` appears on the left `x` times and on the right `y` times,
 	// it's contribution to the answer will be a * x * y
 	long long answer = 0;
