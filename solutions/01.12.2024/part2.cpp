@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
-ifstream fin(".in");
+ifstream fin("input.txt");
+ofstream fout("output.txt");
 
 int main() {
 	map<int, int> fa, fb;
@@ -19,5 +20,5 @@ int main() {
 		int y = fb[a];
 		answer += 1ll * a * x * y;
 	}
-	cout << answer;
+	fout << answer;
 }
