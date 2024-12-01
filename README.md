@@ -1,3 +1,9 @@
+
+<p align="center">
+  <img src="./assets/logo_no_background.png" width="400"/>
+<br>
+
+
 # Advent of Code 2024 Solutions
 
 This year, out of boredom, curiosity and because i thought it would be fun, I decided to try to solve all the problems from the Advent of Code.
