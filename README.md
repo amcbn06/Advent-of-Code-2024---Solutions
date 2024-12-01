@@ -1,25 +1,3 @@
-![Repository Icon](assets/logo.ico)
-
-              $${color{red}^}$$
-                            $${color{green}>}$$
-             $${color{green}<<}$$$${color{red}@}$$             
-            $${color{green}<}$$$${color{red}&}$$            $${color{green}<<<}$$
-           $${color{green}<}$$$${color{red}@}$$           $${color{green}>><><}$$
-          $${color{green}<><>>><}$$$${color{red}&}$$          $${color{green}<}$$
-         $${color{green}<>>><>}$$$${color{red}*}$$$${color{red}$}$$         $${color{green}<<>}$$
-        $${color{green}>}$$$${color{red}&}$$$${color{green}>>><}$$$${color{red}@}$$$${color{red}@}$$$${color{green}><}$$$${color{red}&}$$$${color{red}@}$$        $${color{green}>}$$
-       $${color{red}$}$$$${color{green}><}$$$${color{red}*}$$$${color{green}<<><}$$$${color{red}*}$$$${color{red}@}$$       $${color{green}>><><}$$
-      $${color{green}<>}$$$${color{red}$}$$$${color{green}<<>><><}$$$${color{red}@}$$$${color{green}<}$$$${color{red}*}$$      $${color{green}<<<>}$$
-     $${color{green}<><}$$$${color{red}&}$$$${color{green}><}$$$${color{red}&}$$$${color{green}>}$$$${color{red}&}$$$${color{green}<<>><}$$$${color{red}*}$$     $${color{green}<><<}$$
-    $${color{green}>><<<}$$$${color{red}$}$$$${color{green}<<><<<}$$$${color{red}&}$$$${color{green}>}$$$${color{red}$}$$    $${color{green}<<<>><}$$
-   $${color{green}<<>>><}$$$${color{red}*}$$$${color{green}><}$$$${color{red}&}$$$${color{green}>}$$$${color{red}@}$$$${color{red}$}$$$${color{green}>><<}$$$${color{red}*}$$$${color{green}>}$$$${color{red}@}$$   $${color{green}<>>}$$
-  $${color{red}@}$$$${color{green}><>}$$$${color{red}$}$$$${color{green}<}$$$${color{red}@}$$$${color{green}<><>>}$$$${color{red}@}$$$${color{red}@}$$$${color{green}<>>}$$$${color{red}*}$$$${color{green}<>>>}$$$${color{red}@}$$  $${color{green}><}$$
- $${color{red}@}$$$${color{green}<>}$$$${color{red}@}$$$${color{green}<<>>><<<><><><>>>><}$$$${color{red}*}$$$${color{red}&}$$$${color{red}&}$$ $${color{green}>}$$
-$${color{green}>}$$$${color{red}@}$$$${color{green}><<<<}$$$${color{red}$}$$$${color{green}><>>>><<>><>>>><><><>}$$
-             $${color{red}|}$$$${color{red}|}$$$${color{red}|}$$
-             $${color{red}|}$$$${color{red}|}$$$${color{red}|}$$
-             
-
 # Advent of Code 2024 Solutions
 
 This year, out of boredom, curiosity and because i thought it would be fun, I decided to try to solve all the problems from the Advent of Code.
