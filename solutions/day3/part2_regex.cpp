@@ -24,9 +24,9 @@ int main() {
 	while (getline(fin, line)) {
 		// do(), don't() or mul(x,y)
 		regex pattern("do\\(\\)|don't\\(\\)|mul\\(\\d+,\\d+\\)");
-        auto bgn = sregex_iterator(line.begin(), line.end(), pattern);
-	    for (auto it = bgn; it != sregex_iterator(); ++it) {
-            smatch match = *it;
+		auto bgn = sregex_iterator(line.begin(), line.end(), pattern);
+		for (auto it = bgn; it != sregex_iterator(); ++it) {
+			smatch match = *it;
 			// We enable the instructions
 			if (match.str() == "do()") {
 				enabled = true;
@@ -37,7 +37,7 @@ int main() {
 			else if (enabled) { // If enabled, we handle the current instruction
 				answer += product(match.str());
 			}
-	    }
+		}
 	}
 	fout << answer;
 }
