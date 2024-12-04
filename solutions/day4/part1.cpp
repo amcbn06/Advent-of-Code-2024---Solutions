@@ -21,13 +21,13 @@ int main() {
 	n = a.size();
 	m = a[0].size();
 	int answer = 0;
-  // We pick a position for the first character
+	// We pick a position for the first character
 	for (int i = 0; i < n; ++i) {
 		for (int j = 0; j < m; ++j) {
-      // and a direction along which we search the word "XMAS"
+      			// and a direction along which we search the word "XMAS"
 			for (int k = 0; k < 8; ++k) {
 				bool match = true;
-        // and we just check the pattern
+        			// and we just check the pattern
 				for (int pos = 0; pos < pattern.size(); ++pos) {
 					int ii = i + dx[k] * pos;
 					int jj = j + dy[k] * pos;
