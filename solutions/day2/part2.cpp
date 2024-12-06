@@ -5,8 +5,8 @@ ofstream fout("output.txt");
 
 // Function to check if an array is safe
 bool safe(vector<int>& arr) {
-    if (arr.size() < 2) {
-        return true;
+	if (arr.size() < 2) {
+		return true;
 	}
 	bool increasing = true, decreasing = true;
 	for (int i = 1; i < arr.size(); ++i) {
