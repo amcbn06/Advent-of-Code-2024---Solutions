@@ -6,9 +6,9 @@
 # Advent of Code 2024 Solutions
 
 This year, out of boredom, curiosity and because i thought it would be fun, I decided to try to solve all the problems from the Advent of Code.
- 
+ 🎅🤶❄⛄🎄🎁🕯🌟✨🔥🥣🎶🎆👼🦌🛷
 Here are my solutions and some personal impressions for each problem:
-- Day 1: [Part 1](./solutions/day1/part1.cpp), [Part 2](./solutions/day1/part2.cpp)
+- Day 1: [Part 1](./solutions/day1/part1.cpp), [Part 2](./solutions/day1/part2.cpp) 
   - pretty basic problem involving sortings for part 1 and maps for part 2
 - Day 2: [Part 1](./solutions/day2/part1.cpp), [Part 2](./solutions/day2/part2.cpp)
   - solved part 1 quickly in O(n), got stuck while trying to solve part 2 in O(n) too, ended up using the same logic as in part 1 and reached O(n^2) time complexity
@@ -26,6 +26,13 @@ Here are my solutions and some personal impressions for each problem:
 - Day 8: [Part 1](./solutions/day8/part1.cpp), [Part 2](./solutions/day8/part2.cpp)
   - actually a decent problem
 
-Here's a sentence with a footnote. [^1]
+First Term
+: This is the definition of the first term.
 
+Second Term
+: This is one definition of the second term.
+: This is another definition of the second term.
+
+Here's a sentence with a footnote. [^1]
+: definition
 [^1]: This is the footnote.
