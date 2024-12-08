@@ -21,3 +21,5 @@ Here are my solutions and some personal impressions for each problem:
   - again a problem with weird parsing, a cool observation is that there are ordering rules between any two numbers so you can just sort them according to the rules
 - Day 6: [Part 1](./solutions/day6/part1.cpp), [Part 2](./solutions/day6/part2.cpp)
   - part 1 was easy, part 2 took me way too long to figure out that it's best just to use bruteforce
+- Day 7: [Part 1](./solutions/day7/part1.cpp), [Part 2](./solutions/day7/part2.cpp)
+  - actually a decent problem
