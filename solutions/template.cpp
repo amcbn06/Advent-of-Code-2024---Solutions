@@ -11,19 +11,14 @@ double timer() {
 	return chrono::duration<double>(chrono::high_resolution_clock::now() - start_time).count();
 }
 
-vector<string> input;
-int answer = 0;
-
-void readInput() {
+int main() {
+	startTimer();
+	int answer = 0;
+	vector<string> input;
 	string line;
 	while (getline(fin, line)) {
 		input.push_back(move(line));
 	}
-}
-
-int main() {
-	startTimer();
-	readInput();
 
 	// Solution goes here
 
