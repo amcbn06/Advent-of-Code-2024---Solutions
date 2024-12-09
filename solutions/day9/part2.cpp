@@ -72,7 +72,7 @@ void readInput(){
 int main() {
 	startTimer();
 	readInput();
-    // Sort from the highest ID to the lowest
+    	// Sort from the highest ID to the lowest
 	sort(blocks.begin(), blocks.end(), [&](const sequence& lhs, const sequence& rhs) {
 		return lhs.id > rhs.id;
 		});
@@ -85,7 +85,7 @@ int main() {
 			}
 		}
 		if (freepos < block.pos) {
-            // Case I: the sequence is adjacent to us, therefore we just shift the block to the left
+            		// Case I: the sequence is adjacent to us, therefore we just shift the block to the left
 			if (freepos + freelen == block.pos) {
 				// Remove the chosen empty sequence from our dictionary
 				remmem(freepos, freelen);
