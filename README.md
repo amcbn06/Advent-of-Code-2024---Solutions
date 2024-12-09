@@ -25,6 +25,8 @@ Here are my solutions and some personal impressions for each problem:
   - took me a while to realise that the evaluation is left-to-right, other than that it was just a backtracking problem
 - Day 8: [Part 1](./solutions/day8/part1.cpp), [Part 2](./solutions/day8/part2.cpp) ⛄
   - actually a decent problem
+- Day 9: [Part 1](./solutions/day9/part1.cpp), [Part 2](./solutions/day9/part2.cpp)
+  - part 1 was alright, meanwhile i spent fucking 3 hours trying to wrap my head around part 2, constantly dwelling about how should i implement it, periodically realising that i misunderstood the task and fixing bugs that led to other bugs that led to other bugs... overall this day was an absolute failure
 
 ##### Impressions so far:
   - Some days i have a hard time waking up and i can feel my speed and my thinking aren't 100%
