@@ -84,57 +84,58 @@ int main() {
 				freepos = *it.second.begin(), freelen = it.first;
 			}
 		}
-		if (freepos < block.pos) {
-            		// Case I: the sequence is adjacent to us, therefore we just shift the block to the left
-			if (freepos + freelen == block.pos) {
-				// Remove the chosen empty sequence from our dictionary
-				remmem(freepos, freelen);
-				// Remove the empty sequence after the block
-				int auxpos = block.pos + block.len, auxlen = 0;
-				while (auxpos + auxlen < ids.size() && ids[auxpos + auxlen] == -1) {
-					++auxlen;
-				}
-				remmem(auxpos, auxlen);
-				// Transfer the block
-				for (int k = block.pos; k < block.pos + block.len; ++k) {
-					ids[k] = -1;
-				}
-				for (int k = freepos; k < freepos + block.len; ++k) {
-					ids[k] = block.id;
-				}
-				// Add the newly formed empty sequence
-				freepos += block.len, freelen = 0;
-				while (freepos + freelen < ids.size() && ids[freepos + freelen] == -1) {
-					++freelen;
-				}
+		if (freepos >= block.pos) {
+			continue;
+		}
+		// Case I: the sequence is adjacent to us, therefore we just shift the block to the left
+		if (freepos + freelen == block.pos) {
+			// Remove the chosen empty sequence from our dictionary
+			remmem(freepos, freelen);
+			// Remove the empty sequence after the block
+			int auxpos = block.pos + block.len, auxlen = 0;
+			while (auxpos + auxlen < ids.size() && ids[auxpos + auxlen] == -1) {
+				++auxlen;
 			}
-			else { // case II: there are other blocks between us and the empty sequence
-				// Remove the chosen empty sequence from out dictionary
-				remmem(freepos, freelen);
-				// Transfer the block
-				for (int k = block.pos; k < block.pos + block.len; ++k) {
-					ids[k] = -1;
-				}
-				for (int k = freepos; k < freepos + block.len; ++k) {
-					ids[k] = block.id;
-				}
-				// Add the remaining empty sequence
-				addmem(freepos + block.len, freelen - block.len);
-				// Remove the empty sequence to the left of the block
-				freepos = block.pos, freelen = 0;
-				while (freepos - 1 >= 0 && ids[freepos - 1] == -1) {
-					++freelen, --freepos;
-				}
-				remmem(freepos, freelen);
-				// Remove the empty sequence to the right of the block
-				int auxpos = block.pos + block.len, auxlen = 0;
-				while (auxpos + auxlen < ids.size() && ids[auxpos + auxlen] == -1) {
-					++auxlen;
-				}
-				remmem(auxpos, auxlen);
-				// Add the newly formed empty sequence
-				addmem(freepos, freelen + block.len + auxlen);
+			remmem(auxpos, auxlen);
+			// Transfer the block
+			for (int k = block.pos; k < block.pos + block.len; ++k) {
+				ids[k] = -1;
 			}
+			for (int k = freepos; k < freepos + block.len; ++k) {
+				ids[k] = block.id;
+			}
+			// Add the newly formed empty sequence
+			freepos += block.len, freelen = 0;
+			while (freepos + freelen < ids.size() && ids[freepos + freelen] == -1) {
+				++freelen;
+			}
+		}
+		else { // case II: there are other blocks between us and the empty sequence
+			// Remove the chosen empty sequence from out dictionary
+			remmem(freepos, freelen);
+			// Transfer the block
+			for (int k = block.pos; k < block.pos + block.len; ++k) {
+				ids[k] = -1;
+			}
+			for (int k = freepos; k < freepos + block.len; ++k) {
+				ids[k] = block.id;
+			}
+			// Add the remaining empty sequence
+			addmem(freepos + block.len, freelen - block.len);
+			// Remove the empty sequence to the left of the block
+			freepos = block.pos, freelen = 0;
+			while (freepos - 1 >= 0 && ids[freepos - 1] == -1) {
+				++freelen, --freepos;
+			}
+			remmem(freepos, freelen);
+			// Remove the empty sequence to the right of the block
+			int auxpos = block.pos + block.len, auxlen = 0;
+			while (auxpos + auxlen < ids.size() && ids[auxpos + auxlen] == -1) {
+				++auxlen;
+			}
+			remmem(auxpos, auxlen);
+			// Add the newly formed empty sequence
+			addmem(freepos, freelen + block.len + auxlen);
 		}
 	}
 	for (int i = 0; i < ids.size(); ++i) {
