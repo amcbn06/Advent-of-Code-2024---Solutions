@@ -17,7 +17,7 @@ int main() {
 	string line;
 	getline(fin, line);
 	int pos = 0, id = 0;
-    // We recreate the sequence
+    	// We recreate the sequence
 	vector<int> ids;
 	for (int i = 0; i < line.size(); ++i) {
 		if (i % 2 == 0) {
@@ -32,7 +32,7 @@ int main() {
 			}
 		}
 	}
-    // we take memory from the back and bring it to the front
+    	// We take memory from the back and bring it to the front
 	for (int i = 0; i < ids.size(); ++i) {
 		while (i < ids.size() && ids[i] == -1) {
 			ids[i] = ids.back();
