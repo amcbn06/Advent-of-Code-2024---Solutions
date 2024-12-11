@@ -30,7 +30,7 @@ Here are my solutions and some personal impressions for each problem:
 - Day 10: [Part 1](./solutions/day10/part1.cpp), [Part 2](./solutions/day10/part2.cpp)
   - just BFS for the first part and BFS + dp or just DFS for the second part, for whatever reason i got lots of bugs again and i wasted a lot of time
 - Day 11: [Part 1](./solutions/day11/part1.cpp), [Part 2](./solutions/day11/part2.cpp)
-  - easy day, i had to change a 2 one character from part 1 to solve part 2
+  - easy day, i had to change one character from part 1 to solve part 2
 
 ##### Impressions so far:
   - Some days i have a hard time waking up and i can feel my speed and my thinking aren't 100%
