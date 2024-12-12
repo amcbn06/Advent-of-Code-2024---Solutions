@@ -41,7 +41,7 @@ int computeSides(set<pair<int, int>>& positions) {
 		byx[i].push_back(j);
 		byy[j].push_back(i);
 	}
-  // We traverse each row and count with how many up / down sides does it contribute
+	// We traverse each row and count with how many up / down sides does it contribute
 	int sides = 0;
 	for (const auto& it : byx) {
 		int i = it.first;
@@ -66,7 +66,7 @@ int computeSides(set<pair<int, int>>& positions) {
 			last_j = j;
 		}
 	}
-  // We traverse each column and count with how many left / right sides does it contribute
+	// We traverse each column and count with how many left / right sides does it contribute
 	for (const auto& it : byy) {
 		int j = it.first;
 		int cntLeft = 0, cntRight = 0;
