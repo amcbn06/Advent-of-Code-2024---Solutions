@@ -28,15 +28,15 @@ long long solve() {
 	n = input.size();
 	long long answer = 0;
 	for (int i = 0; i < n; i += 4) {
-        // The increase from button A
+	        // The increase from button A
 		auto da = getNumbers(input[i]);
-        // The increase from button B
+        	// The increase from button B
 		auto db = getNumbers(input[i + 1]);
-        // The coordinates of the prize
+	        // The coordinates of the prize
 		auto dst = getNumbers(input[i + 2]);
 		dst.first += 10000000000000;
 		dst.second += 10000000000000;
-        // Solve by formula
+        	// Solve by formula
 		// a * da.first + b * db.first = dst.first | * db.second
 		// a * da.second + b * db.second = dst.second | * db.first
 		// a * (da.first * db.second - da.second * db.first) = dst.first * db.second - dst.second * db.first
