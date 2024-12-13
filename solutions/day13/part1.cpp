@@ -28,14 +28,14 @@ long long solve() {
 	n = input.size();
 	long long answer = 0;
 	for (int i = 0; i < n; i += 4) {
-        // The increase from button A
+        	// The increase from button A
 		auto da = getNumbers(input[i]);
-        // The increase from button B
+        	// The increase from button B
 		auto db = getNumbers(input[i + 1]);
-        // The coordinates of the prize
+        	// The coordinates of the prize
 		auto dst = getNumbers(input[i + 2]);
 		long long cost = inf;
-        // Just bruteforce
+        	// Just bruteforce
 		for (int a = 0; a <= 100; ++a) {
 			int b = (dst.first - a * da.first) / db.first;
 			if (a * da.first + b * db.first == dst.first && a * da.second + b * db.second == dst.second) {
