@@ -35,6 +35,8 @@ Here are my solutions and some personal impressions for each problem:
   - actually a decent day and i also managed to solve the 2 parts in a reasonable time
 - Day 13: [Part 1](./solutions/day13/part1.cpp), [Part 2](./solutions/day13/part2.cpp)
   - another decent day, i actually managed to get in the top100 for solving part 2
+- Day 14: [Part 1](./solutions/day14/part1.cpp), [Part 2](./solutions/day14/part2.cpp)
+  - this day was interesing: part 1 was not a big deal, but for part 2 i actually outputed all the states of the matrix from t = 0 to t = 101 * 103 (the product of the dimensions of the matrix), because after that it becomes periodic, and i went through the file manually in order to find the Christmas tree (tip: Ctrl + F 1111...1111 as the tree will have lots of sequences of 1)
 
 
 ##### Impressions so far:
