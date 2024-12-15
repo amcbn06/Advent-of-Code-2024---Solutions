@@ -25,7 +25,7 @@ void read() {
 		if (line.empty()) {
 			break;
 		}
-        // Modify the input
+		// Modify the input
 		string nline;
 		for (auto& ch : line) {
 			if (ch == 'O') {
@@ -94,7 +94,7 @@ long long solve() {
 		int k = arr.find(ch);
 		set<pair<int, int>> positions;
 		ffill(ri, rj, k, positions);
-        // If each position has either another position from the set or an empty cell in the direction `k`, we can move
+		// If each position has either another position from the set or an empty cell in the direction `k`, we can move
 		bool can_move = true;
 		for (auto& pos : positions) {
 			int i = pos.first, j = pos.second;
@@ -105,7 +105,7 @@ long long solve() {
 			}
 		}
 		if (can_move) {
-            // Sort the cells from the furtherest to the closest
+			// Sort the cells from the furtherest to the closest
 			vector<pair<int, int>> inOrder(positions.begin(), positions.end());
 			sort(inOrder.begin(), inOrder.end(), [&](const pair<int, int>& lhs, const pair<int, int>& rhs) {
 				if (dx[k] != 0) {
@@ -115,7 +115,7 @@ long long solve() {
 					return abs(lhs.second - rj) > abs(rhs.second - rj);
 				}
 			});
-            // Than just move from the last to the first
+			// Than just move from the last to the first
 			for (auto& pos : inOrder) {
 				int i = pos.first, j = pos.second;
 				int ii = i + dx[k], jj = j + dy[k];
