@@ -44,14 +44,14 @@ long long solve() {
 	}
 	for (auto& ch : instructions) {
 		int k = arr.find(ch);
-        // Find the end position of the chain of Os that move
+		// Find the end position of the chain of Os that move
 		int ci = ri, cj = rj;
 		while (input[ci + dx[k]][cj + dy[k]] == 'O') {
 			ci += dx[k], cj += dy[k];
 		}
-        // If we can move the whole chain, we do it
+		// If we can move the whole chain, we do it
 		if (input[ci + dx[k]][cj + dy[k]] == '.') {
-            // We move from the last to the first
+			// We move from the last to the first
 			while ((dx[k] ? (ci - ri) / dx[k] : (cj - rj) / dy[k]) >= 0) {
 				swap(input[ci][cj], input[ci + dx[k]][cj + dy[k]]);
 				ci -= dx[k], cj -= dy[k];
