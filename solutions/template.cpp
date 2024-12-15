@@ -3,25 +3,25 @@ using namespace std;
 ifstream fin("input.txt");
 ofstream fout("output.txt");
 
-chrono::steady_clock::time_point start_time;
-void startTimer() {
-	start_time = chrono::high_resolution_clock::now();
+vector<string> input;
+
+void read() {
+	string line;
+	while (getline(fin, line)) {
+		input.push_back(line);
+	}
 }
-double timer() {
-	return chrono::duration<double>(chrono::high_resolution_clock::now() - start_time).count();
+
+long long solve() {
+
+
 }
 
 int main() {
-	startTimer();
-	int answer = 0;
-	vector<string> input;
-	string line;
-	while (getline(fin, line)) {
-		input.push_back(move(line));
-	}
-
-	// Solution goes here
-
-	fout << answer;
-	cerr << "Duration: " << timer();
+	auto start_time = chrono::high_resolution_clock::now();
+	read();
+	fout << solve();
+	auto end_time = chrono::high_resolution_clock::now();
+	double duration = chrono::duration<double>(end_time - start_time).count();
+	cerr << "Duration: " << duration;
 }
