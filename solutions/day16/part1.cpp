@@ -10,7 +10,6 @@ const int dy[4]{ -1, 0, 1, 0 };
 vector<string> input;
 int n, m;
 vector<vector<long long>> src[4];
-vector<vector<long long>> dst[4];
 
 void read() {
 	string line;
@@ -24,7 +23,6 @@ long long solve() {
 	m = input[0].size() - 2;
 	for (int k = 0; k < 4; ++k) {
 		src[k].assign(n + 2, vector<long long>(m + 2, 1e18));
-		dst[k].assign(n + 2, vector<long long>(m + 2, 1e18));
 	}
 	int si = -1, sj = -1, ei = -1, ej = -1;
 	for (int i = 1; i <= n; ++i) {
