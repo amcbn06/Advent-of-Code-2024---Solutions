@@ -12,7 +12,7 @@ void read() {
 	}
 }
 
-long long solve() {
+void solve() {
 
 
 }
@@ -20,7 +20,7 @@ long long solve() {
 int main() {
 	auto start_time = chrono::high_resolution_clock::now();
 	read();
-	fout << solve();
+	solve();
 	auto end_time = chrono::high_resolution_clock::now();
 	double duration = chrono::duration<double>(end_time - start_time).count();
 	cerr << "Duration: " << duration;
