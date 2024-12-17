@@ -39,6 +39,10 @@ Here are my solutions and some personal impressions for each problem:
   - this day was interesing: part 1 was not a big deal, but for part 2 i actually outputed all the states of the matrix from t = 0 to t = 101 * 103 (the product of the dimensions of the matrix), because after that it becomes periodic, and i went through the file manually in order to find the Christmas tree (tip: Ctrl + F 1111...1111 as the tree will have lots of sequences of 1)
 - Day 15: [Part 1](./solutions/day15/part1.cpp), [Part 2](./solutions/day15/part2.cpp) 🦌
   - not a bad problem but not a great one either, i did manage to solve part 2 quicker than others
+- Day 16: [Part 1](./solutions/day16/part1.cpp), [Part 2](./solutions/day16/part2.cpp)
+  - just a Dijkstra, unfortunatelly i had bugs when solving part 2
+- Day 17: [Part 1](./solutions/day17/part1.cpp), [Part 2](./solutions/day17/part2.cpp)
+  - it was tougher to understand what all the operations and combo operands and literal operands meant than to solve the actual problem (part 1), for part 2 it took me too long to figure out that a simple bruteforce wouldn't suffice, and the observation that we can bruteforce 3 bits at a time was really nice
 
 
 ##### Impressions so far:
