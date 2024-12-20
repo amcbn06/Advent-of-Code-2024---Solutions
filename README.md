@@ -44,10 +44,11 @@ Here are my solutions and some personal impressions for each problem:
 - Day 17: [Part 1](./solutions/day17/part1.cpp), [Part 2](./solutions/day17/part2.cpp)
   - it was tougher to understand what all the operations and combo operands and literal operands meant than to solve the actual problem (part 1), for part 2 it took me too long to figure out that a simple bruteforce wouldn't suffice, and the observation that we can bruteforce 3 bits at a time was really nice
 
-
-##### Impressions so far:
+##### Impressions:
   - Some days i have a hard time waking up and i can feel my speed and my thinking aren't 100%
-  - Basically every problem can, is and probably should be solved with bruteforce
+  - Basically every problem from the first 10 - 15 days can, is and probably should be solved with bruteforce
   - I make stupid implementation mistakes and i waste a lot of time figuring them out
 
-[comment]: <> (🎅🤶❄🕯🌟🔥🥣🎶🎆👼)
+## Conclusion and final thoughts
+
+I stopped this challenge at day 18 because i realised that this challenge is not for me. I don't particularly enjoy the problems and even though some of them are nicer than others, this challenge is worth me getting up at 6 - 6:30 AM. Therefore i decided that even tho it's been a good run, this must come to an end (earlier than expected). Who knows, maybe next year I'll try again. 🎅 
